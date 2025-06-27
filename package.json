@@ -1,0 +1,36 @@
+{
+  "name": "genkit-express-chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch --env-file .env.development src/index.ts",
+    "start": "tsx src/index.ts",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "avipsyaifulloh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@genkit-ai/firebase": "^1.13.0",
+    "@genkit-ai/googleai": "^1.8.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "genkit": "^1.8.0",
+    "pdf-parse": "^1.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@tsconfig/node22": "^22.0.1",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "@types/pdf-parse": "^1.1.5",
+    "eslint": "^9.26.0",
+    "eslint-plugin-perfectionist": "^4.12.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.0"
+  }
+}
