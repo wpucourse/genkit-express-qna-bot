@@ -15,8 +15,8 @@ A simple AI-powered Q&A bot API using Genkit Firebase and Express JS.
 ## Installation
 
 ```bash
-git clone https://github.com/wpucourse/genkit-express-chatbot
-cd genkit-express-chatbot
+git clone https://github.com/wpucourse/genkit-express-qna-bot
+cd genkit-express-qna-bot
 npm install
 ```
 
@@ -25,6 +25,10 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Example Document
+
+You can use the example document in `/src/docs/example-train-docs.pdf` and save it to the cloud
 
 ## License
 
